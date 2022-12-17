@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 2, Errors: 0, Skipped: 3, Time elapsed: 180.392 s <<< FAILURE! - in TestSuite
+NeostoxTestclassM.TestclassNeostoxTest.validatefund  Time elapsed: 0.467 s  <<< FAILURE!
+java.lang.AssertionError: acual fund and expected fund is not matching Tc failed expected [50,00,00] but found [Rs.5,00,000.00]
+	at NeostoxTestclassM.TestclassNeostoxTest.validatefund(TestclassNeostoxTest.java:80)
+
+NeostoxTestclassM.TestclassNeostoxTest.loginttoneostox  Time elapsed: 21.117 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"(//div[@class='col-lg-12 text-center'])[8]"}
+  (Session info: chrome=108.0.5359.125)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-QGP1QR8', ip: '192.168.43.170', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.15.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [ead0cd400ef02e37a8ffbc8270b2addc, findElement {using=xpath, value=(//div[@class='col-lg-12 text-center'])[8]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 108.0.5359.125, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\ADMIN\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64376}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:64376/devtoo..., se:cdpVersion: 108.0.5359.125, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ead0cd400ef02e37a8ffbc8270b2addc
+	at NeostoxTestclassM.TestclassNeostoxTest.loginttoneostox(TestclassNeostoxTest.java:57)
+
